@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Just a site that checks window.opener sanity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+</head>
+
+<body>
+	<div id="root">
+		<h1 id="msg">😁 There's nothing here</h1>
+	</div>
+	<script>
+		if (window.opener) {
+			window.opener.location = "//wellosoft.net/h4ck3d/";
+			document.getElementById("msg").textContent = "😱 Why don't you see the previous tab?!";
+		}
+	</script>
+</body>
+
+</html>
