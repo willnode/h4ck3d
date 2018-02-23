@@ -1,0 +1,19 @@
+body {
+	background-color: #222;
+	color: white;
+	text-align: center;
+	height: 100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+small {
+	font-size: 11px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.thumb {
+	font-size: 96px;
+}
