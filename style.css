@@ -7,10 +7,14 @@ body {
 }
 
 small {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 h1 {
+	font-size: 56px;
+}
+
+h2 {
 	font-size: 48px;
 }
 
